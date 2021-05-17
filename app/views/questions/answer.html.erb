@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+
+  </title>
+</head>
+<body>
+  <div class="container">
+    <div id="question">
+      <h1>Stupid coaching</h1>
+      <p>
+          <%= @question %>
+      </p>
+    <p id="coach-answer">- You</p>
+    </div>
+    <div id="answer-yellow">
+      <p>
+        <%= @answer %>
+      </p>
+      <p id="coach-answer">- Your Coach</p>
+    </div>
+    <div id="ask-link">
+      <%= link_to "Go to questions page", ask_path %>
+    </div>
+  </div>
+</body>
+</html>
